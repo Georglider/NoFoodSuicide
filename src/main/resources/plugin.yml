@@ -1,0 +1,10 @@
+name: NoFoodSuicide
+version: '${version}'
+main: georglider.nofoodsuicide.PluginInitializer
+api-version: 1.13
+authors: [ Georglider ]
+description: Makes your players stop dying to recover their food level
+permissions:
+  nofoodsuicide.bypass:
+    description: Allows player to bypass and start doing suicide to recover food level (；′⌒`)
+    default: op
