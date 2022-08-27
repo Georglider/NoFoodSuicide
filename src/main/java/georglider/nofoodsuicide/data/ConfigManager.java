@@ -96,7 +96,6 @@ public class ConfigManager {
         if (this.configFile.length() == 0) {
             this.getConfig().set("min_food_level", 6);
             this.getConfig().set("max_food_level", 20);
-            this.getConfig().set("ops_affected", true);
             this.getConfig().set("save_left_players_on_stop", false);
             this.getConfig().set("recover_cause", new String[]{"STARVATION", "VOID"});
 
